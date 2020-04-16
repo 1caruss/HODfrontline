@@ -7,7 +7,7 @@ Versions:
 
 0.2: Occupation system
 
-0.3: Persistence/saving
+0.3: Persistence/saving     WE ARE HERE
 
 0.4: Civilian systems
 
