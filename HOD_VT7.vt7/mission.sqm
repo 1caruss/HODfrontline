@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1537;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=555;
+		nextID=559;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1;
+		nextID=2;
 	};
 	class Camera
 	{
 		pos[]={13034.928,276.88098,9881.3115};
-		dir[]={-0.085916452,-0.87123919,0.48330298};
-		up[]={-0.15248924,0.49085143,0.85779405};
-		aside[]={0.98457456,-1.2470991e-008,0.17502774};
+		dir[]={0.30977276,-0.75528568,0.57758844};
+		up[]={0.35698062,0.65538216,0.66560966};
+		aside[]={0.88126767,8.3586201e-008,-0.47264171};
 	};
 };
 binarizationWanted=0;
@@ -99,7 +99,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=14;
+		items=17;
 		class Item0
 		{
 			dataType="Group";
@@ -683,31 +683,31 @@ class Mission
 				class Item31
 				{
 					dataType="Marker";
-					position[]={2296.6951,20.768999,12759.324};
+					position[]={3091.5198,21.296587,13092.954};
 					name="marker_73";
 					type="mil_dot";
 					colorName="ColorWEST";
 					id=136;
-					atlOffset=-0.00045585632;
 				};
 				class Item32
 				{
 					dataType="Marker";
-					position[]={3970.5679,18.181192,8965.8057};
+					position[]={3859.9304,15.513062,9164.9531};
 					name="marker_80";
 					type="mil_dot";
 					colorName="ColorWEST";
 					id=143;
+					atlOffset=-4.4971523;
 				};
 				class Item33
 				{
 					dataType="Marker";
-					position[]={5090.9434,26.738079,7532.5815};
+					position[]={4759.0317,18.072144,7687.4741};
 					name="marker_84";
 					type="mil_dot";
 					colorName="ColorWEST";
 					id=147;
-					atlOffset=-0.00045585632;
+					atlOffset=-28.030334;
 				};
 				class Item34
 				{
@@ -732,17 +732,17 @@ class Mission
 				class Item36
 				{
 					dataType="Marker";
-					position[]={2483.8096,19.026098,14717.794};
+					position[]={2547.2419,14.819336,15478.978};
 					name="marker_94";
 					type="mil_dot";
 					colorName="ColorWEST";
 					id=157;
-					atlOffset=-0.00045585632;
+					atlOffset=-3.7374783;
 				};
 				class Item37
 				{
 					dataType="Marker";
-					position[]={3403.1211,27.562826,16291.276};
+					position[]={1767.1118,17.551464,17313.063};
 					name="marker_96";
 					type="mil_dot";
 					colorName="ColorWEST";
@@ -751,14 +751,13 @@ class Mission
 				class Item38
 				{
 					dataType="Marker";
-					position[]={7189.9849,5.5170002,4644.3379};
+					position[]={7080.7144,7.0268745,4679.2114};
 					name="marker_65";
 					text="ENEMY RECON PATROLS FLANKING";
 					type="mil_triangle";
 					colorName="ColorRed";
 					angle=330.21893;
 					id=92;
-					atlOffset=0.00021314621;
 				};
 				class Item39
 				{
@@ -890,7 +889,7 @@ class Mission
 				};
 			};
 			id=170;
-			atlOffset=11.0224;
+			atlOffset=11.0195;
 		};
 		class Item2
 		{
@@ -1107,6 +1106,44 @@ class Mission
 			text="motorised (cars)";
 			type="mil_box";
 			id=550;
+			atlOffset=-9.5367432e-007;
+		};
+		class Item14
+		{
+			dataType="Marker";
+			position[]={1829.557,26.524,1998.156};
+			name="EOSpat_2";
+			markerType="ELLIPSE";
+			type="ellipse";
+			fillName="Grid";
+			a=150;
+			b=150;
+			id=555;
+			atlOffset=-0.00014305115;
+		};
+		class Item15
+		{
+			dataType="Marker";
+			position[]={749.62579,4.185791,4548.0444};
+			name="EOSrec_3";
+			markerType="ELLIPSE";
+			type="ellipse";
+			fillName="Border";
+			a=150;
+			b=150;
+			drawBorder=1;
+			id=556;
+			atlOffset=-8.0956488;
+		};
+		class Item16
+		{
+			dataType="Marker";
+			position[]={741.68762,20.690001,4380.3247};
+			name="marker_109";
+			text="recon patrol";
+			type="mil_box";
+			id=557;
+			atlOffset=2.7548466;
 		};
 	};
 	class Connections
