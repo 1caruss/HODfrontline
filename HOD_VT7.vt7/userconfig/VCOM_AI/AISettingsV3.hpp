@@ -18,12 +18,12 @@ Vcm_Settings =
 	//VCOM ARTILLERY. Only one kind of advanced artillery can be used at a time.
 	VCM_ARTYENABLE = true; //Enable improved artillery handling from Vcom.
 	VCM_ARTYLST = []; //List of all AI inside of artillery pieces, leave this alone.
-	VCM_ARTYDELAY = 30; //Delay between squads requesting artillery
+	VCM_ARTYDELAY = 120; //Delay between squads requesting artillery
 	VCM_ARTYWT = -(VCM_ARTYDELAY);
 	VCM_ARTYET = -(VCM_ARTYDELAY);
 	VCM_ARTYRT = -(VCM_ARTYDELAY);
 	VCM_ARTYSIDES = [west,east,resistance];  //Sides that will use VCOM/FFE artillery
-	VCM_AIMagLimit = 5; //Number of mags remaining before AI looks for ammo.
+	VCM_AIMagLimit = 2; //Number of mags remaining before AI looks for ammo.
 	VCM_Debug = false; //Enable debug mode.
 	VCM_MINECHANCE = 75; //Chance to lay a mine
 	VCM_SIDEENABLED = [west,east,resistance]; //Sides that will activate Vcom AI
@@ -32,11 +32,11 @@ Vcm_Settings =
 	VCM_FullSpeed = true; //Enforce full speedmode during combat (Does not reset after combat end)
 	VCM_HEARINGDISTANCE = 800; //Distance AI hear unsuppressed gunshots.
 	VCM_WARNDIST = 1000; //How far AI can request help from other groups.
-	VCM_WARNDELAY = 30; //How long the AI have to survive before they can call in for support. This activates once the AI enter combat.
+	VCM_WARNDELAY = 60; //How long the AI have to survive before they can call in for support. This activates once the AI enter combat.
 	VCM_STATICARMT = 300; //How long AI stay on static weapons when initially arming them. This is just for AI WITHOUT static bags. They will stay for this duration when NO ENEMIES ARE SEEN, or their group gets FAR away.	
 	VCM_StealVeh = true; //Will the AI steal vehicles.
 	VCM_ClassSteal = true; //If true, crewmen are required to steal tracked vehicles. Pilots are required to steal aircraft. false = anyone can steal any vehicle.
-	VCM_AIDISTANCEVEHPATH = 100; //Distance AI check from the squad leader to steal vehicles
+	VCM_AIDISTANCEVEHPATH = 50; //Distance AI check from the squad leader to steal vehicles
 	VCM_ADVANCEDMOVEMENT = true; //True means AI will actively generate waypoints if no other waypoints are generated for the AI group (2 or more). False disables this advanced movements.
 	VCM_FRMCHANGE = true; //AI GROUPS WILL CHANGE FORMATIONS TO THEIR BEST GUESS.
 	VCM_SKILLCHANGE = true; //AI Groups will have their skills changed by Vcom.
@@ -50,15 +50,15 @@ Vcm_Settings =
 	//VCM_AIDIFA = [['aimingAccuracy',0.15],['aimingShake',0.1],['aimingSpeed',0.25],['commanding',1],['courage',1],['endurance',1],['general',0.5],['reloadSpeed',1],['spotDistance',0.8],['spotTime',0.8]];
 		
 	//MEDIUM DIFFICULTY
-	VCM_AIDIFA = [['aimingAccuracy',0.25],['aimingShake',0.15],['aimingSpeed',0.35],['commanding',0.85],['courage',0.5],['general',1],['reloadSpeed',1],['spotDistance',0.85],['spotTime',0.85]];
+	VCM_AIDIFA = [['aimingAccuracy',0.2],['aimingShake',0.1],['aimingSpeed',0.35],['commanding',0.9],['courage',0.6],['general',1],['reloadSpeed',1],['spotDistance',0.8],['spotTime',0.8]];
 	
 	//HIGH DIFFICULTY
 	//VCM_AIDIFA = [['aimingAccuracy',0.35],['aimingShake',0.4],['aimingSpeed',0.45],['commanding',1],['courage',1],['endurance',1],['general',0.5],['reloadSpeed',1],['spotDistance',0.8],['spotTime',0.8]];
 	
 	//SIDE SPECIFIC
-	VCM_AIDIFWEST = [['aimingAccuracy',0.25],['aimingShake',0.15],['aimingSpeed',0.35],['commanding',0.85],['courage',0.5],['general',1],['reloadSpeed',1],['spotDistance',0.85],['spotTime',0.85]];
-	VCM_AIDIFEAST = [['aimingAccuracy',0.25],['aimingShake',0.15],['aimingSpeed',0.35],['commanding',0.85],['courage',0.5],['general',1],['reloadSpeed',1],['spotDistance',0.85],['spotTime',0.85]];
-	VCM_AIDIFRESISTANCE = [['aimingAccuracy',0.25],['aimingShake',0.15],['aimingSpeed',0.35],['commanding',0.85],['courage',0.5],['general',1],['reloadSpeed',1],['spotDistance',0.85],['spotTime',0.85]];
+	VCM_AIDIFWEST = [['aimingAccuracy',0.2],['aimingShake',0.1],['aimingSpeed',0.35],['commanding',0.9],['courage',0.6],['general',1],['reloadSpeed',1],['spotDistance',0.8],['spotTime',0.8]];
+	VCM_AIDIFEAST = [['aimingAccuracy',0.2],['aimingShake',0.1],['aimingSpeed',0.35],['commanding',0.9],['courage',0.6],['general',1],['reloadSpeed',1],['spotDistance',0.8],['spotTime',0.8]];
+	VCM_AIDIFRESISTANCE = [['aimingAccuracy',0.2],['aimingShake',0.1],['aimingSpeed',0.35],['commanding',0.9],['courage',0.6],['general',1],['reloadSpeed',1],['spotDistance',0.8],['spotTime',0.8]];
 		
 	VCM_AISIDESPEC =
 	{
