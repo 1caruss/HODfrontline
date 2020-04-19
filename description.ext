@@ -1,0 +1,80 @@
+respawn = "BASE";
+respawndelay = 3;
+author = "[HOD]Iccarus and [HOD]Tetlys";
+onLoadMission = "HOD Frontline Operations";
+onLoadIntro = "Welcome to Frontline Operations! - Clear target areas to push the enemy back";
+onLoadIntroTime = 1; // 0: disabled - 1: enabled. Default: 0
+loadScreen = "HODPAA.paa";
+
+disabledAI = 1;
+enableDebugConsole = 0;
+
+class Header
+{
+	gameType =  COOP;	// Game type
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 33;	// maximum number of players the mission supports
+};
+
+// CAS Support script by Incontinentia
+
+class CfgFunctions
+{
+	#include "INC_airPower\cfgFunctions.hpp"
+	#include "vcom\cfgFunctions.hpp"
+};
+
+class CfgRemoteExec
+{
+   class Functions
+   {
+       mode = 2;
+       jip = 1;
+       #include "INC_airPower\functionsWhitelist.hpp"
+	   class vcm_serverask { allowedTargets = 0;jip = 1; };
+	   class VCM_PublicScript { allowedTargets = 0;jip = 1; };
+	   class BIS_fnc_debugConsoleExec { allowedTargets = 0;jip = 1; };
+	   class SpawnScript { allowedTargets = 0;jip = 1; };
+	   class enableSimulationGlobal { allowedTargets = 0;jip = 1; };
+	   class VCM_fnc_KnowAbout { allowedTargets = 0;jip = 1; };
+   };
+};
+
+//ATM Airdrop
+
+#include "ATM_airdrop\dialog.hpp"
+class CfgSounds
+{
+   sounds[] = {Vent,Vent2,Para,correctcode,incorrectcode};
+
+	class Vent {name="Vent";sound[]={ATM_airdrop\data\Vent.ogg,db-11,1.0};titles[] = {};};
+	class Vent2 {name="Vent2";sound[]={ATM_airdrop\data\Vent2.ogg,db-11,1.0};titles[] = {};};
+	class Para {name="Para";sound[]={ATM_airdrop\data\parachute.ogg,db-11,1.0};titles[] = {};};
+	class Airdrop_Plane_sound_1{name = "Airdrop_Plane_sound_1";sound[] = {"GF_Missions\sounds\Airdrop_Plane_sound_1.ogg", db-2, 1.0};titles[] = {};};
+	class correctcode
+	{
+		// Played when correct code is entered in keypad
+		name = "correctcode";
+		// filename, volume, pitch
+		sound[] = {"sounds\correct.ogg", 3, 1};
+		titles[] = {};
+	};
+	class incorrectcode
+	{
+		// Played when incorrect code is entered in keypad
+		name = "incorrectcode";
+		// filename, volume, pitch
+		sound[] = {"sounds\incorrect.ogg", 1, 1};
+		titles[] = {};
+	};
+};
+
+// Airfell's Keypad libraries
+#include "AF_Keypad\AF_KP_defines.hpp"
+#include "AF_Keypad\AF_KP_dialogs.hpp"
+
+//Vcom AI by genesis92x
+
+class Extended_PreInit_EventHandlers {
+	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_Functions\fn_CBASettings.sqf";
+};
