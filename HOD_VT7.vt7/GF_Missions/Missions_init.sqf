@@ -124,7 +124,7 @@ GF_Missions_Delete_Objects_Distance		= 2000;					// 	The Distance to Delete the 
 //________________ Enemies Settings _____________
 //________________ Set true or false  _____________
 
-GF_Missions_Safe_Zone_distance			= 1000;					//	Add here the distance for the Safe Zones and players
+GF_Missions_Safe_Zone_distance			= 2500;					//	Add here the distance for the Safe Zones and players
 GF_Missions_DAC_Area_Spawn_Meters 		= 600 + random 400;		//	The size of the area	
 GF_Missions_Enemy_Side					= east;					//	This is for Normal Spawn and EOS , NOT for the DAC units
 GF_Missions_Squad_Members				= 6 + floor random 6;
@@ -154,6 +154,8 @@ GF_Missions_Safe_Zone_2 = getMarkerPos "GF_Missions_Safe_Zone_2";
 GF_Missions_Safe_Zone_3 = getMarkerPos "GF_Missions_Safe_Zone_3";
 GF_Missions_Safe_Zone_4 = getMarkerPos "GF_Missions_Safe_Zone_4";
 GF_Missions_Safe_Zone_5 = getMarkerPos "GF_Missions_Safe_Zone_5";
+GF_Missions_Safe_Zone_6 = getMarkerPos "GF_Missions_Safe_Zone_6";
+GF_Missions_Safe_Zone_7 = getMarkerPos "GF_Missions_Safe_Zone_7";
 
 
 /*
