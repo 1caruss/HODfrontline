@@ -47,9 +47,9 @@ systemchat "GF Units Map Markers Initializing";
 
 //________________	Settings	true , false 	_____________
 //________________	You can filter the side in the end of the script	________________	
-GF_Units_Map_Markers_Enabled				= true;
-GF_Units_Map_Symbols_Enabled				= true;
-GF_Units_Map_Symbols_Remove_Text 			= true;	//	If you are using the symbols , set this to true
+GF_Units_Map_Markers_Enabled				= false;
+GF_Units_Map_Symbols_Enabled				= false;
+GF_Units_Map_Symbols_Remove_Text 			= false;	//	If you are using the symbols , set this to true
 
 
 GF_Units_Map_Markers_Number = 0; 
