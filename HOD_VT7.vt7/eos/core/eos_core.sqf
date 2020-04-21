@@ -158,7 +158,7 @@ if (_debug) then {player sidechat format ["Static:%1",_counter];0= [_mkr,_counte
 	for "_counter" from 1 to _fGrps do {
 	if (isnil "_fGrp") then {_fGrp=[];};	
 		if ((_fSize select 0) > 0) then {_vehType=4}else{_vehType=3};
-				_newpos = [(markerpos _mkr), 2000, random 360] call BIS_fnc_relPos;	
+				_newpos = [(markerpos _mkr), 2000, random [10, 90, 170] ] call BIS_fnc_relPos;	
 						_fGroup=[_newpos,_side,_faction,_vehType,"fly"]call EOS_fnc_spawnvehicle;	
 						_fGrp set [count _fGrp,_fGroup];
 						
@@ -283,7 +283,7 @@ if (_debug) then {hint "Zone Cached";};
 				sleep 1;};
 // PLAYER LEFT ZONE				
 _eosAct=false;		
-			};sleep 0.5;};
+			};sleep 2;};
 
 deletevehicle _clear;deletevehicle _taken;	
 	
