@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=646;
+		nextID=666;
 	};
 	class Camera
 	{
 		pos[]={14296.543,55.513676,5764.2871};
-		dir[]={-0.23174146,-0.58730507,0.77549142};
-		up[]={-0.16816148,0.80935508,0.56273133};
-		aside[]={0.95814204,-5.4109842e-007,0.28632236};
+		dir[]={-0.31079185,-0.25576031,0.9154309};
+		up[]={-0.082228683,0.96673459,0.2422044};
+		aside[]={0.94692457,-8.0704922e-007,0.32148328};
 	};
 };
 binarizationWanted=0;
@@ -34992,6 +34992,7 @@ class Mission
 			name="GF_Missions_Safe_Zone_1";
 			markerType="ELLIPSE";
 			type="ellipse";
+			alpha=0;
 			a=2500;
 			b=2500;
 			angle=69.112976;
@@ -35006,6 +35007,7 @@ class Mission
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorBlack";
+			alpha=0;
 			a=2500;
 			b=2500;
 			angle=154.024;
@@ -35019,6 +35021,7 @@ class Mission
 			name="GF_Missions_Safe_Zone_3";
 			markerType="ELLIPSE";
 			type="ellipse";
+			alpha=0;
 			a=2500;
 			b=2500;
 			angle=63.258984;
@@ -35032,6 +35035,7 @@ class Mission
 			name="GF_Missions_Safe_Zone_4";
 			markerType="ELLIPSE";
 			type="ellipse";
+			alpha=0;
 			a=2500;
 			b=2500;
 			angle=315.685;
@@ -35044,6 +35048,7 @@ class Mission
 			name="GF_Missions_Safe_Zone_5";
 			markerType="ELLIPSE";
 			type="ellipse";
+			alpha=0;
 			a=2500;
 			b=2500;
 			angle=66.805984;
@@ -42502,6 +42507,7 @@ class Mission
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorBlack";
+			alpha=0;
 			a=2500;
 			b=2500;
 			angle=154.024;
@@ -42511,16 +42517,17 @@ class Mission
 		class Item514
 		{
 			dataType="Marker";
-			position[]={15183.438,39.148193,15239.068};
+			position[]={15183.438,39.147999,15239.068};
 			name="GF_Missions_Safe_Zone_7";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorBlack";
+			alpha=0;
 			a=2500;
 			b=2500;
 			angle=154.024;
 			id=3075;
-			atlOffset=21.868124;
+			atlOffset=21.867929;
 		};
 		class Item515
 		{
@@ -47150,7 +47157,7 @@ class Mission
 		class Item866
 		{
 			dataType="Marker";
-			position[]={5890.0269,-16.195337,8257.8066};
+			position[]={5690.5186,23.493952,7973.9521};
 			name="EOSpat_4";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -47158,7 +47165,6 @@ class Mission
 			a=150;
 			b=150;
 			id=3446;
-			atlOffset=-42.943607;
 		};
 		class Item867
 		{
@@ -47538,7 +47544,7 @@ class Mission
 		class Item896
 		{
 			dataType="Marker";
-			position[]={6477.8105,-35.623821,7449.814};
+			position[]={6440.5039,7.2838454,7654.189};
 			name="EOSpat_34";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -47546,12 +47552,11 @@ class Mission
 			a=150;
 			b=150;
 			id=3476;
-			atlOffset=-45.305092;
 		};
 		class Item897
 		{
 			dataType="Marker";
-			position[]={6128.3486,-33.875687,7286.875};
+			position[]={6270.626,-33.875687,7156.9702};
 			name="EOSpat_35";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -47559,12 +47564,12 @@ class Mission
 			a=150;
 			b=150;
 			id=3477;
-			atlOffset=-51.52832;
+			atlOffset=-44.647713;
 		};
 		class Item898
 		{
 			dataType="Marker";
-			position[]={6409.9673,10.533056,6970.0835};
+			position[]={7053.9102,3.7389076,7156.6157};
 			name="EOSpat_36";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -47576,7 +47581,7 @@ class Mission
 		class Item899
 		{
 			dataType="Marker";
-			position[]={6031.0688,-25.29974,7855.5132};
+			position[]={7262.0786,-25.29974,8140.0679};
 			name="EOSpat_37";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -47584,7 +47589,7 @@ class Mission
 			a=150;
 			b=150;
 			id=3479;
-			atlOffset=-42.943607;
+			atlOffset=-56.88781;
 		};
 		class Item900
 		{
