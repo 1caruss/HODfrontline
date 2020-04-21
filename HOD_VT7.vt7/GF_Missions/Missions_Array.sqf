@@ -39,21 +39,21 @@ GF_Missions_Array = [
 
 //________________ Missions Folder _____________
 
-"GF_Missions\Mission_Pack\Missions\1_Eliminate_Spy.sqf",
-"GF_Missions\Mission_Pack\Missions\2_Eliminate_Spy_2.sqf",
-"GF_Missions\Mission_Pack\Missions\3_Eliminate_Suspects.sqf",
-"GF_Missions\Mission_Pack\Missions\4_Snipers_Hide.sqf",
-"GF_Missions\Mission_Pack\Missions\5_Search_Stolen.sqf",
-"GF_Missions\Mission_Pack\Missions\6_Trader_Camp.sqf",
+//"GF_Missions\Mission_Pack\Missions\1_Eliminate_Spy.sqf",
+//"GF_Missions\Mission_Pack\Missions\2_Eliminate_Spy_2.sqf",
+//"GF_Missions\Mission_Pack\Missions\3_Eliminate_Suspects.sqf",
+//"GF_Missions\Mission_Pack\Missions\4_Snipers_Hide.sqf",
+//"GF_Missions\Mission_Pack\Missions\5_Search_Stolen.sqf",
+//"GF_Missions\Mission_Pack\Missions\6_Trader_Camp.sqf",
 "GF_Missions\Mission_Pack\Missions\7_Clear_Bunker.sqf",
-"GF_Missions\Mission_Pack\Missions\8_Prisoners_Escaped.sqf",
+//"GF_Missions\Mission_Pack\Missions\8_Prisoners_Escaped.sqf",
 "GF_Missions\Mission_Pack\Missions\9_Move_to.sqf",
 "GF_Missions\Mission_Pack\Missions\10_Move_to_Escort.sqf",
 "GF_Missions\Mission_Pack\Missions\11_Rescue_Hostage.sqf",
 "GF_Missions\Mission_Pack\Missions\12_Find_Intel.sqf",
-"GF_Missions\Mission_Pack\Missions\13_Transport_Prisoners.sqf",
-"GF_Missions\Mission_Pack\Missions\14_Escort_Special_Police_Unit.sqf",
-"GF_Missions\Mission_Pack\Missions\15_Find_the_Prisoners.sqf",
+//"GF_Missions\Mission_Pack\Missions\13_Transport_Prisoners.sqf",
+//"GF_Missions\Mission_Pack\Missions\14_Escort_Special_Police_Unit.sqf",
+//"GF_Missions\Mission_Pack\Missions\15_Find_the_Prisoners.sqf",
 
 
 //________________ Missions_Big Folder _____________
@@ -65,7 +65,7 @@ GF_Missions_Array = [
 "GF_Missions\Mission_Pack\Missions_Big\5_Big_Clear_Mount.sqf",
 "GF_Missions\Mission_Pack\Missions_Big\6_Big_Clear_Hill.sqf",
 "GF_Missions\Mission_Pack\Missions_Big\7_Big_Clear_Area_2.sqf",
-"GF_Missions\Mission_Pack\Missions_Big\8_Big_Clear_Area_Airport_Tanoa_Only.sqf",
+//"GF_Missions\Mission_Pack\Missions_Big\8_Big_Clear_Area_Airport_Tanoa_Only.sqf",
 "GF_Missions\Mission_Pack\Missions_Big\9_Big_Destroy_Weaponry.sqf",
 "GF_Missions\Mission_Pack\Missions_Big\10_Big_Destroy_Storage_Tank.sqf",
 "GF_Missions\Mission_Pack\Missions_Big\11_Big_Destroy_Weapon_Caches.sqf",
@@ -73,8 +73,8 @@ GF_Missions_Array = [
 "GF_Missions\Mission_Pack\Missions_Big\13_Big_Disable_Communications.sqf",
 "GF_Missions\Mission_Pack\Missions_Big\14_Big_Search_Airdrop.sqf",
 "GF_Missions\Mission_Pack\Missions_Big\15_Big_Search_Crashsite.sqf",
-"GF_Missions\Mission_Pack\Missions_Big\16_Big_Search_Device.sqf",
-"GF_Missions\Mission_Pack\Missions_Big\17_Big_Search_for_Supplies.sqf",
+//"GF_Missions\Mission_Pack\Missions_Big\16_Big_Search_Device.sqf",
+//"GF_Missions\Mission_Pack\Missions_Big\17_Big_Search_for_Supplies.sqf",
 
 
 //________________ Missions_Air Folder _____________

@@ -58,10 +58,3 @@ if (isServer) then {
 [] execVM "Vcom\VcomInit.sqf";
 
 // ====================================================================================
-// Devas Aircraft Patrol
-
-if (isServer) then {
-	[] execVM "AirPatrol\AirPatrolInit.sqf"; 
-	};
-	
-// ====================================================================================

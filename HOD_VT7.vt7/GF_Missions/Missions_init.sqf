@@ -84,32 +84,16 @@ GF_Missions_Pos_Spawn_Test				= false;				//	Position Spawn Test
 
 
 //________________ EOS Settings _____________
-
-VictoryColor							= "colorGreen";			// Colour of marker after completion
-hostileColor							= "colorRed";			// Default colour when enemies active
-bastionColor							= "colorOrange";		// Colour for bastion marker
-EOS_DAMAGE_MULTIPLIER					= 1;					// 1 is default
-EOS_KILLCOUNTER							= false;				// Counts killed units
-
-GF_Missions_Debug_EOS					= false;				//	Show EOS Debug
-GF_Missions_EOS_Marker_Type 			= 2;					//	Marker Type , 0 = Highlight , 1 = Invinsible , 2 Normal 
-GF_Missions_EOS_Faction					= 6;					//	6 is the Custom_Units_Array.sqf else , select from the eos UnitPools
-GF_Missions_EOS_Spawn_Distance			= 1500;					//	Spawn Distance
-GF_Missions_EOS_HEIGHTLIMIT				= false;				//	A height limit will prevent flying units from activating EOS zones.
-//	The Enemy Side for EOS can be changed below in Enemies Settings
-
-
 //________________ Missions Settings _____________
 //________________ Set true or false  _____________
 
-GF_Missions_EOS_Spawn 					= true;					//	It can be disabled , this is the main option , you can select also inside the mission
 GF_Missions_DAC_Spawn 					= true;					//	It can be disabled , this is the main option , you can select also inside the mission
 GF_Missions_Custom_Spawn 				= true;					//	It can be disabled , this is the main option , you can select also inside the mission
 
-GF_Missions_saveGame					= true;					//	Save Game
+GF_Missions_saveGame					= false;					//	Save Game
 GF_Missions_Repeat_Missions				= false;				//	Change this for Non stop. Set this to false , if you are using the DAC missions
-GF_Missions_Mission_End					= true;					//	When all the misions are complete , end the mission ( server )
-GF_Missions_Wait_Time					= 5;					// 	The time to move to the next mission	
+GF_Missions_Mission_End					= false;					//	When all the misions are complete , end the mission ( server )
+GF_Missions_Wait_Time					= 300;					// 	The time to move to the next mission	
 GF_Missions_Time_out_mission_fail		= true;					//	The mission will fail if the time pass
 GF_Missions_Set_the_sec_for_fail		= 3600;					// 	The time to fail the mission , 1 hour = 3600 seconds
 GF_Missions_Find_pos_Attempts 			= 20;					//	Attempts to find the selected spawn position
@@ -124,17 +108,17 @@ GF_Missions_Delete_Objects_Distance		= 2000;					// 	The Distance to Delete the 
 //________________ Enemies Settings _____________
 //________________ Set true or false  _____________
 
-GF_Missions_Safe_Zone_distance			= 1000;					//	Add here the distance for the Safe Zones and players
+GF_Missions_Safe_Zone_distance			= 2500;					//	Add here the distance for the Safe Zones and players
 GF_Missions_DAC_Area_Spawn_Meters 		= 600 + random 400;		//	The size of the area	
 GF_Missions_Enemy_Side					= east;					//	This is for Normal Spawn and EOS , NOT for the DAC units
 GF_Missions_Squad_Members				= 6 + floor random 6;
 GF_Missions_set_AiSkill					= random 0.75 + 0.25 ;
 GF_Missions_BIS_fnc_taskPatrol_distance = random 250 + 100;		//	The distance for BIS_fnc_taskPatrol
 GF_Missions_Air_Patrol_distance			= random 500 + 500;		//	The distance for BIS_fnc_taskPatrol
-GF_Missions_Attack_Distance 			= GF_Missions_EOS_Spawn_Distance;	//	1500 The distance for the attack spawn units
+GF_Missions_Attack_Distance 			= 1500;	//	1500 The distance for the attack spawn units
 
 GF_Missions_Garrison_Area_Possibility    = 25;					//	up to 100 %
-GF_Missions_Garrison_Area_Distance 		= GF_Missions_EOS_Spawn_Distance / 2; 
+GF_Missions_Garrison_Area_Distance 		= 750; 
 
 
 //________________	This is in the GF_Set_Custom_Loadout folder and it's configured for the GF Missions	________________
@@ -154,6 +138,8 @@ GF_Missions_Safe_Zone_2 = getMarkerPos "GF_Missions_Safe_Zone_2";
 GF_Missions_Safe_Zone_3 = getMarkerPos "GF_Missions_Safe_Zone_3";
 GF_Missions_Safe_Zone_4 = getMarkerPos "GF_Missions_Safe_Zone_4";
 GF_Missions_Safe_Zone_5 = getMarkerPos "GF_Missions_Safe_Zone_5";
+GF_Missions_Safe_Zone_6 = getMarkerPos "GF_Missions_Safe_Zone_6";
+GF_Missions_Safe_Zone_7 = getMarkerPos "GF_Missions_Safe_Zone_7";
 
 
 /*
