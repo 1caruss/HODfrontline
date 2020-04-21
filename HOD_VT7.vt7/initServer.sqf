@@ -29,21 +29,19 @@ For the Compilation List of my GF Scripts , you can search in:
 https://forums.bohemia.net/forums/topic/215850-compilation-list-of-my-gf-scripts/
 */
 
-//	enableSaving [ false, false ]; // Saving disabled without autosave.
 
-//__________________________ ***  C O P Y   T H I S  *** __________________________
+	enableSaving [ false, false ]; // Saving disabled without autosave.
+
+
 
 []execVM "GF_Missions\Missions_Array.sqf";
 []execVM "GF_Missions\Missions_init.sqf";
 
-//__________________________ ***  C O P Y   E N D  *** __________________________
 
 
 [] execVM "GF_Missions\Credits.sqf";	//	Please keep the Credits or add them to your Diary
 [] execVM "GF_Set_Custom_Loadout\Credits.sqf";	// Please keep the Credits or add them to your Diary
 
-
-//________________ This is EXTRA	________________
 
 //________________	add to Zeus	________________
 

@@ -283,7 +283,7 @@ if (_debug) then {hint "Zone Cached";};
 				sleep 1;};
 // PLAYER LEFT ZONE				
 _eosAct=false;		
-			};sleep 0.5;};
+			};sleep 2;};
 
 deletevehicle _clear;deletevehicle _taken;	
 	

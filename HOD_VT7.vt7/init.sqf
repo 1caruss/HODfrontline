@@ -1,9 +1,13 @@
 //EOS SYSTEM by banga bob - modified by HOD
 []execVM "eos\OpenMe.sqf";
 
+
+call compile preProcessFileLineNumbers "HOD_def.sqf";
+
 // ====================================================================================
 
-//MHQ Tracker by Tetlys
+//MHQ Tracker by (HOD)Tetlys
+
 [] execVM "scripts\mhqTrack.sqf"; 
 
 // ====================================================================================
@@ -64,4 +68,7 @@ if (isServer) then {
 	[] execVM "AirPatrol\AirPatrolInit.sqf"; 
 	};
 	
+
 // ====================================================================================
+
+null=[] call HOD_fnc_autosave;

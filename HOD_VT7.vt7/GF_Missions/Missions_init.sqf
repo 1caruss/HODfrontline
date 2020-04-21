@@ -41,20 +41,6 @@ diag_log "//________________ GF Missions init _____________";
 GF_Missions_allPlayers = allUnits select {isPlayer _x && {!(_x isKindOf "HeadlessClient_F")}};
 GF_Missions_centerPosition = getArray(configFile >> "CfgWorlds" >> worldName >> "centerPosition");
 
-
-//________________ This is for EOS	_____________
-
-_createCenter = createCenter sideLogic;
-_sideLogic = createGroup _createCenter;
-_Server_sideLogic = _sideLogic createUnit ["Logic", [0,0,0], [], 0, "NONE"];
-_Server_sideLogic setVehicleVarName "server";
-missionNamespace setVariable ["server", _Server_sideLogic, true];
-
-
-//________________ EOS	_____________
-
-[]execVM "eos\OpenMe.sqf";
-
 //________________ DAC _____________
 
 DAC_Basic_Value = 0;
