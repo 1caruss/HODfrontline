@@ -36,54 +36,71 @@ null = [["EOSpat_1","EOSpat_2","EOSpat_3","EOSpat_4","EOSpat_5","EOSpat_6","EOSp
 "EOSpat_51","EOSpat_52","EOSpat_53","EOSpat_54","EOSpat_55","EOSpat_56","EOSpat_57","EOSpat_58","EOSpat_59","EOSpat_60",
 "EOSpat_61","EOSpat_62","EOSpat_63","EOSpat_64","EOSpat_65","EOSpat_66","EOSpat_67","EOSpat_68","EOSpat_69","EOSpat_70",
 "EOSpat_71","EOSpat_72","EOSpat_73","EOSpat_74","EOSpat_75","EOSpat_76","EOSpat_77","EOSpat_78","EOSpat_79","EOSpat_80",
-"EOSpat_81","EOSpat_82","EOSpat_83","EOSpat_84","EOSpat_85","EOSpat_86","EOSpat_87","EOSpat_88","EOSpat_89","EOSpat_90",],
+"EOSpat_81","EOSpat_82","EOSpat_83","EOSpat_84","EOSpat_85","EOSpat_86","EOSpat_87","EOSpat_88","EOSpat_89","EOSpat_90"],
 
-[0,0],[3,2,75],[0,0],[0],[0],[1,0,25],[5,1,400,EAST,TRUE,TRUE]] call EOS_Spawn;
+[0,0],[1,2,75],[0,0],[0],[0],[0,0],[5,1,500,EAST,TRUE,FALSE]] call EOS_Spawn;
 
 
 
-//infantry zones (villages/towns) - 
-null = [["EOS_inf1","EOS_inf2","EOS_inf3","EOS_inf4","EOS_inf5","EOS_inf6","EOS_inf7","EOS_inf8","EOS_inf9","EOS_inf10",
-"EOS_inf11","EOS_inf12","EOS_inf13","EOS_inf14","EOS_inf15","EOS_inf16","EOS_inf17","EOS_inf18","EOS_inf19","EOS_inf20",
-"EOS_inf21","EOS_inf22","EOS_inf23","EOS_inf24","EOS_inf25","EOS_inf26","EOS_inf27","EOS_inf28","EOS_inf29","EOS_inf30",
-"EOS_inf31","EOS_inf32","EOS_inf33","EOS_inf34","EOS_inf35","EOS_inf36","EOS_inf37","EOS_inf38","EOS_inf39","EOS_inf40",
-"EOS_inf41","EOS_inf42","EOS_inf43","EOS_inf44","EOS_inf45","EOS_inf46","EOS_inf47","EOS_inf48","EOS_inf49","EOS_inf50",
-"EOS_inf51","EOS_inf52","EOS_inf53","EOS_inf54","EOS_inf55","EOS_inf56","EOS_inf57","EOS_inf58","EOS_inf59","EOS_inf60",
-"EOS_inf61","EOS_inf62","EOS_inf63","EOS_inf64","EOS_inf65","EOS_inf66","EOS_inf67","EOS_inf68","EOS_inf69","EOS_inf70",
-"EOS_inf71","EOS_inf72","EOS_inf73","EOS_inf74","EOS_inf75","EOS_inf76","EOS_inf77","EOS_inf78","EOS_inf79","EOS_inf80",
-"EOS_inf81","EOS_inf82","EOS_inf83","EOS_inf84","EOS_inf85","EOS_inf86","EOS_inf87","EOS_inf88","EOS_inf89","EOS_inf90",
-"EOS_inf91","EOS_inf92","EOS_inf93","EOS_inf94","EOS_inf95","EOS_inf96","EOS_inf97","EOS_inf98","EOS_inf99","EOS_inf100",
-"EOS_inf101","EOS_inf102","EOS_inf103","EOS_inf104","EOS_inf105","EOS_inf106","EOS_inf107","EOS_inf108","EOS_inf109","EOS_inf110","EOS_inf111","EOS_inf112","EOS_inf113","EOS_inf114","EOS_inf115","EOS_inf116","EOS_inf117","EOS_inf118","EOS_inf119","EOS_inf120","EOS_inf121","EOS_inf122","EOS_inf123","EOS_inf124","EOS_inf125","EOS_inf126","EOS_inf127","EOS_inf128","EOS_inf129","EOS_inf130","EOS_inf131","EOS_inf132","EOS_inf133","EOS_inf134","EOS_inf135","EOS_inf136","EOS_inf137","EOS_inf138","EOS_inf139","EOS_inf140","EOS_inf141","EOS_inf142","EOS_inf143","EOS_inf144","EOS_inf145","EOS_inf146","EOS_inf147","EOS_inf148","EOS_inf149","EOS_inf150","EOS_inf151","EOS_inf152","EOS_inf153","EOS_inf154","EOS_inf155","EOS_inf156","EOS_inf157","EOS_inf158","EOS_inf159""EOS_inf160","EOS_inf161","EOS_inf162","EOS_inf163","EOS_inf164","EOS_inf165","EOS_inf166","EOS_inf167","EOS_inf168","EOS_inf169""EOS_inf170","EOS_inf171","EOS_inf172","EOS_inf173","EOS_inf174","EOS_inf175","EOS_inf176","EOS_inf177","EOS_inf178","EOS_inf179""EOS_inf180","EOS_inf181","EOS_inf182","EOS_inf183","EOS_inf184","EOS_inf185","EOS_inf186","EOS_inf187","EOS_inf188","EOS_inf189","EOS_inf190","EOS_inf191","EOS_inf192","EOS_inf193","EOS_inf194","EOS_inf195","EOS_inf196","EOS_inf197","EOS_inf198","EOS_inf199","EOS_inf200","EOS_inf201","EOS_inf202","EOS_inf203","EOS_inf204","EOS_inf205","EOS_inf206","EOS_inf207","EOS_inf208","EOS_inf209","EOS_inf210","EOS_inf211","EOS_inf212","EOS_inf213","EOS_inf214","EOS_inf215","EOS_inf216","EOS_inf217","EOS_inf218","EOS_inf219","EOS_inf220","EOS_inf221","EOS_inf222","EOS_inf223","EOS_inf224","EOS_inf225","EOS_inf226","EOS_inf227","EOS_inf228","EOS_inf229","EOS_inf230","EOS_inf231","EOS_inf232","EOS_inf233","EOS_inf234","EOS_inf235","EOS_inf236","EOS_inf237","EOS_inf238","EOS_inf239","EOS_inf240","EOS_inf241","EOS_inf242","EOS_inf243","EOS_inf244","EOS_inf245","EOS_inf246","EOS_inf247","EOS_inf248","EOS_inf249","EOS_inf250","EOS_inf251","EOS_inf252","EOS_inf253","EOS_inf254","EOS_inf255","EOS_inf256","EOS_inf257","EOS_inf258","EOS_inf259","EOS_inf260","EOS_inf261","EOS_inf262","EOS_inf263","EOS_inf264","EOS_inf265","EOS_inf266","EOS_inf267","EOS_inf268","EOS_inf269","EOS_inf270","EOS_inf271","EOS_inf272","EOS_inf273","EOS_inf274","EOS_inf275","EOS_inf276","EOS_inf277","EOS_inf278","EOS_inf279","EOS_inf280",
-"EOS_inf281","EOS_inf282","EOS_inf283","EOS_inf284","EOS_inf285","EOS_inf286","EOS_inf287","EOS_inf288""EOS_inf289","EOS_inf290","EOS_inf291","EOS_inf292","EOS_inf293",],
+//infantry zones (villages/towns)
+null = [["EOSinf_1","EOSinf_2","EOSinf_3","EOSinf_4","EOSinf_5","EOSinf_6","EOSinf_7","EOSinf_8","EOSinf_9","EOSinf_10",
+"EOSinf_11","EOSinf_12","EOSinf_13","EOSinf_14","EOSinf_15","EOSinf_16","EOSinf_17","EOSinf_18","EOSinf_19","EOSinf_20",
+"EOSinf_21","EOSinf_22","EOSinf_23","EOSinf_24","EOSinf_25","EOSinf_26","EOSinf_27","EOSinf_28","EOSinf_29","EOSinf_30",
+"EOSinf_31","EOSinf_32","EOSinf_33","EOSinf_34","EOSinf_35","EOSinf_36","EOSinf_37","EOSinf_38","EOSinf_39","EOSinf_40",
+"EOSinf_41","EOSinf_42","EOSinf_43","EOSinf_44","EOSinf_45","EOSinf_46","EOSinf_47","EOSinf_48","EOSinf_49","EOSinf_50",
+"EOSinf_51","EOSinf_52","EOSinf_53","EOSinf_54","EOSinf_55","EOSinf_56","EOSinf_57","EOSinf_58","EOSinf_59","EOSinf_60",
+"EOSinf_61","EOSinf_62","EOSinf_63","EOSinf_64","EOSinf_65","EOSinf_66","EOSinf_67","EOSinf_68","EOSinf_69","EOSinf_70",
+"EOSinf_71","EOSinf_72","EOSinf_73","EOSinf_74","EOSinf_75","EOSinf_76","EOSinf_77","EOSinf_78","EOSinf_79","EOSinf_80",
+"EOSinf_81","EOSinf_82","EOSinf_83","EOSinf_84","EOSinf_85","EOSinf_86","EOSinf_87","EOSinf_88","EOSinf_89","EOSinf_90",
+"EOSinf_91","EOSinf_92","EOSinf_93","EOSinf_94","EOSinf_95","EOSinf_96","EOSinf_97","EOSinf_98","EOSinf_99","EOSinf_100",
+"EOSinf_101","EOSinf_102","EOSinf_103","EOSinf_104","EOSinf_105","EOSinf_106","EOSinf_107","EOSinf_108","EOSinf_109","EOSinf_110",
+"EOSinf_111","EOSinf_112","EOSinf_113","EOSinf_114","EOSinf_115","EOSinf_116","EOSinf_117","EOSinf_118","EOSinf_119","EOSinf_120",
+"EOSinf_121","EOSinf_122","EOSinf_123","EOSinf_124","EOSinf_125","EOSinf_126","EOSinf_127","EOSinf_128","EOSinf_129","EOSinf_130",
+"EOSinf_131","EOSinf_132","EOSinf_133","EOSinf_134","EOSinf_135","EOSinf_136","EOSinf_137","EOSinf_138","EOSinf_139","EOSinf_140",
+"EOSinf_141","EOSinf_142","EOSinf_143","EOSinf_144","EOSinf_145","EOSinf_146","EOSinf_147","EOSinf_148","EOSinf_149","EOSinf_150",
+"EOSinf_151","EOSinf_152","EOSinf_153","EOSinf_154","EOSinf_155","EOSinf_156","EOSinf_157","EOSinf_158","EOSinf_159","EOSinf_160",
+"EOSinf_161","EOSinf_162","EOSinf_163","EOSinf_164","EOSinf_165","EOSinf_166","EOSinf_167","EOSinf_168","EOSinf_169","EOSinf_170",
+"EOSinf_171","EOSinf_172","EOSinf_173","EOSinf_174","EOSinf_175","EOSinf_176","EOSinf_177","EOSinf_178","EOSinf_179","EOSinf_180",
+"EOSinf_181","EOSinf_182","EOSinf_183","EOSinf_184","EOSinf_185","EOSinf_186","EOSinf_187","EOSinf_188","EOSinf_189","EOSinf_190",
+"EOSinf_191","EOSinf_192","EOSinf_193","EOSinf_194","EOSinf_195","EOSinf_196","EOSinf_197","EOSinf_198","EOSinf_199","EOSinf_200",
+"EOSinf_201","EOSinf_202","EOSinf_203","EOSinf_204","EOSinf_205","EOSinf_206","EOSinf_207","EOSinf_208","EOSinf_209","EOSinf_210",
+"EOSinf_211","EOSinf_212","EOSinf_213","EOSinf_214","EOSinf_215","EOSinf_216","EOSinf_217","EOSinf_218","EOSinf_219","EOSinf_220",
+"EOSinf_221","EOSinf_222","EOSinf_223","EOSinf_224","EOSinf_225","EOSinf_226","EOSinf_227","EOSinf_228","EOSinf_229","EOSinf_230",
+"EOSinf_231","EOSinf_232","EOSinf_233","EOSinf_234","EOSinf_235","EOSinf_236","EOSinf_237","EOSinf_238","EOSinf_239","EOSinf_240",
+"EOSinf_241","EOSinf_242","EOSinf_243","EOSinf_244","EOSinf_245","EOSinf_246","EOSinf_247","EOSinf_248","EOSinf_249","EOSinf_250",
+"EOSinf_251","EOSinf_252","EOSinf_253","EOSinf_254","EOSinf_255","EOSinf_256","EOSinf_257","EOSinf_258","EOSinf_259","EOSinf_260",
+"EOSinf_261","EOSinf_262","EOSinf_263","EOSinf_264","EOSinf_265","EOSinf_266","EOSinf_267","EOSinf_268","EOSinf_269","EOSinf_270",
+"EOSinf_271","EOSinf_272","EOSinf_273","EOSinf_274","EOSinf_275","EOSinf_276","EOSinf_277","EOSinf_278","EOSinf_279","EOSinf_280",
+"EOSinf_281","EOSinf_282","EOSinf_283","EOSinf_284","EOSinf_285","EOSinf_286","EOSinf_287","EOSinf_288","EOSinf_289","EOSinf_290",
+"EOSinf_291","EOSinf_292","EOSinf_293"],
 
-[2,1],[1,2,50],[0,0],[0],[0],[0,0],[5,0,400,EAST,TRUE,TRUE]] call EOS_Spawn;
-
+[2,1,75],[2,0,50],[0,0],[0],[0],[0,0],[5,0,350,EAST,FALSE,FALSE]] call EOS_Spawn;
 
 
 //motorized zones - 
 null = [["EOSmot_1","EOSmot_2","EOSmot_3","EOSmot_4","EOSmot_5","EOSmot_6","EOSmot_7","EOSmot_8","EOSmot_9","EOSmot_10",
 "EOSmot_11","EOSmot_12"],
 
-[0,0],[0,0],[1,1,90],[2,60],[0],[1,0,30],[5,1,400,EAST,FALSE,TRUE]] call EOS_Spawn;
-
-
-
-//mechanised zones - 
-null = [["EOSmech_1","EOSmech_2","EOSmech_3","EOSmech_4","EOSmech_5","EOSmech_6","EOSmech_7","EOSmech_8","EOSmech_9","EOSmech_10"],
-
-[0,0],[0,0],[1,1,90],[2,60],[0],[1,0,30],[5,1,400,EAST,FALSE,TRUE]] call EOS_Spawn;
-
-
-
-//bastion zones - 
-null = [["EOSbas_1","EOSbas_2","EOSbas_3","EOSbas_4","EOSbas_5","EOSbas_6","EOSbas_7","EOSbas_8","EOSbas_9","EOSbas_10",
-"EOSbas_11","EOSbas_12","EOSbas_13"],
-
-[0,1],[0,2],[0],[1,2],[0,0,EAST,TRUE],[5,0,120,TRUE,TRUE]] call Bastion_Spawn;
+[0,0],[1,2,50],[1,1,75],[0],[0],[0],[5,1,500,EAST,FALSE,FALSE]] call EOS_Spawn;
 
 
 //Recon patrols - 
 null = [["EOSrec_1","EOSrec_2","EOSrec_3","EOSrec_4","EOSrec_5","EOSrec_6","EOSrec_7","EOSrec_8","EOSrec_9","EOSrec_10",
 "EOSrec_11","EOSrec_12","EOSrec_13","EOSrec_14","EOSrec_15","EOSrec_16","EOSrec_17","EOSrec_18"],
 
-[0,0],[3,3,75],[0,0],[0],[0],[1,4,40],[6,1,400,EAST,TRUE,TRUE]] call EOS_Spawn;
+[0,0],[2,1,75],[1,2,25],[0],[0],[0],[6,1,400,EAST,TRUE,TRUE]] call EOS_Spawn;
+
+
+//mechanised zones
+null = [["EOSmech_1","EOSmech_2","EOSmech_3","EOSmech_4","EOSmech_5","EOSmech_6","EOSmech_7","EOSmech_8","EOSmech_9","EOSmech_10"],
+
+[0,0],[0,0],[1,75],[0],[0],[0],[5,1,350,EAST,FALSE,FALSE]] call EOS_Spawn;
+
+
+//bastion zones
+null = [["BAS_1","BAS_2","BAS_3","BAS_4","BAS_5","BAS_6","BAS_7","BAS_8","BAS_9","BAS_10","BAS_11","BAS_12","BAS_13"],
+
+[2,1],[1,2],[0],[1,2],[5,0,EAST,TRUE],[5,2,120,TRUE,FALSE]] call Bastion_Spawn;
+
+
+null=[] call HOD_fnc_persistence;

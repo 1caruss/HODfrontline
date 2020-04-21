@@ -1,6 +1,6 @@
 respawn = "BASE";
 respawndelay = 3;
-author = "[HOD]Iccarus and [HOD]Tetlys";
+author = "[HOD]Icaruss and [HOD]Tetlys";
 onLoadMission = "HOD Frontline Operations";
 onLoadIntro = "Welcome to Frontline Operations! - Clear target areas to push the enemy back";
 onLoadIntroTime = 1; // 0: disabled - 1: enabled. Default: 0
@@ -16,12 +16,41 @@ class Header
 	maxPlayers = 33;	// maximum number of players the mission supports
 };
 
-// CAS Support script by Incontinentia
+
+class Params
+{
+	class HOD_savingEnable
+    {
+	title = "Enable saving? (WIP)";
+	values[]={0,1,2};
+	texts[]={"no","yes","start new game"};
+	default = 1;
+	};
+};
+
+
 
 class CfgFunctions
 {
+	// CAS Support script by Incontinentia
 	#include "INC_airPower\cfgFunctions.hpp"
+	
+	//VCOM AI
 	#include "vcom\cfgFunctions.hpp"
+	
+	class HOD
+	{
+		class HOD_FRL
+		{
+			file = "FNC";
+			class persistence {};
+			class manualSave {};
+			class autosave {};
+		};
+		
+
+	};
+
 };
 
 class CfgRemoteExec

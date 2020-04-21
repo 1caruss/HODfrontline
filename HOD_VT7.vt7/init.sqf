@@ -58,3 +58,4 @@ if (isServer) then {
 [] execVM "Vcom\VcomInit.sqf";
 
 // ====================================================================================
+null=[] call HOD_fnc_autosave;
