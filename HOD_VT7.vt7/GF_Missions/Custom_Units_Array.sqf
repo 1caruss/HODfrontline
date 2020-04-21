@@ -193,7 +193,7 @@ GF_Missions_Pool_Static_Weapons = [
 	];
 
 GF_Missions_Pool_Boats  = [
-	"O_Boat_Armed_01_hmg_F","O_G_Boat_Transport_01_F""
+	"O_Boat_Armed_01_hmg_F","O_G_Boat_Transport_01_F"
 	];
 		
 GF_Missions_Pool_UAV  = [
@@ -201,5 +201,6 @@ GF_Missions_Pool_UAV  = [
 	];
 	
 GF_Missions_Pool_Planes = [
-	"O_Plane_CAS_02_dynamicLoadout_F","I_Plane_Fighter_03_dynamicLoadout_F","O_Plane_CAS_02_dynamicLoadout_F"
+	"rhs_mig29s_vvs","rhs_mig29sm_vvs","RHS_Su25SM_vvs"
 	];
+	

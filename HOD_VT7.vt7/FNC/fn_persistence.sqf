@@ -55,9 +55,7 @@ if ((count (profileNamespace getVariable ["HOD_FRONT_prog", []]) > 0)) then {
 
 else {
 
-	hint "no saved markers";
 	profileNamespace setVariable ["HOD_FRONT_prog", []];	
 	saveProfileNamespace;
 };
 
-null=[] call HOD_fnc_autosave;

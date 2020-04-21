@@ -98,6 +98,5 @@ null = [["BAS_1","BAS_2","BAS_3","BAS_4","BAS_5","BAS_6","BAS_7","BAS_8","BAS_9"
 [0,1],[0,2],[0],[1,2],[0,0,EAST,TRUE],[5,2,120,TRUE,FALSE]] call Bastion_Spawn;
 
 
-waitUntil {time > 10};
 
 null=[] call HOD_fnc_persistence;
