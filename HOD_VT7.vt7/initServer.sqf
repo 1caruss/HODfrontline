@@ -42,6 +42,8 @@ https://forums.bohemia.net/forums/topic/215850-compilation-list-of-my-gf-scripts
 [] execVM "GF_Missions\Credits.sqf";	//	Please keep the Credits or add them to your Diary
 [] execVM "GF_Set_Custom_Loadout\Credits.sqf";	// Please keep the Credits or add them to your Diary
 
+[] execVM "Script\garbage.sqf"; //garbage collector
+
 
 //________________	add to Zeus	________________
 
@@ -54,6 +56,8 @@ https://forums.bohemia.net/forums/topic/215850-compilation-list-of-my-gf-scripts
   _x addCuratorEditableObjects [allMissionObjects "All",true];
  } forEach allCurators;            
 };
-  sleep 10;
+  sleep 60;
   };
 };
+
+
