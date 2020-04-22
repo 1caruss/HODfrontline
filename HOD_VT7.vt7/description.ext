@@ -1,6 +1,7 @@
 respawn = "BASE";
 respawndelay = 3;
 author = "[HOD]Icaruss and [HOD]Tetlys";
+briefingName = "HOD Frontline Operations";
 onLoadMission = "HOD Frontline Operations";
 onLoadIntro = "Welcome to Frontline Operations! - Clear target areas to push the enemy back";
 onLoadIntroTime = 1; // 0: disabled - 1: enabled. Default: 0
