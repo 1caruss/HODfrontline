@@ -69,10 +69,19 @@ GF_Missions_Diag_Log_info				= false;					//	Log information
 GF_Missions_Pos_Spawn_Test				= false;				//	Position Spawn Test
 
 
-//________________ EOS Settings _____________
+
+GF_Missions_Debug_EOS					= false;				//	Show EOS Debug
+GF_Missions_EOS_Marker_Type 			= 2;					//	Marker Type , 0 = Highlight , 1 = Invinsible , 2 Normal 
+GF_Missions_EOS_Faction					= 6;					//	6 is the Custom_Units_Array.sqf else , select from the eos UnitPools
+GF_Missions_EOS_Spawn_Distance			= 1500;					//	Spawn Distance
+GF_Missions_EOS_HEIGHTLIMIT				= false;				//	A height limit will prevent flying units from activating EOS zones.
+//	The Enemy Side for EOS can be changed below in Enemies Settings
+
+
 //________________ Missions Settings _____________
 //________________ Set true or false  _____________
 
+GF_Missions_EOS_Spawn 					= false;					//	It can be disabled , this is the main option , you can select also inside the mission
 GF_Missions_DAC_Spawn 					= true;					//	It can be disabled , this is the main option , you can select also inside the mission
 GF_Missions_Custom_Spawn 				= true;					//	It can be disabled , this is the main option , you can select also inside the mission
 
@@ -104,7 +113,7 @@ GF_Missions_Air_Patrol_distance			= random 500 + 500;		//	The distance for BIS_f
 GF_Missions_Attack_Distance 			= 1500;	//	1500 The distance for the attack spawn units
 
 GF_Missions_Garrison_Area_Possibility    = 25;					//	up to 100 %
-GF_Missions_Garrison_Area_Distance 		= 750; 
+GF_Missions_Garrison_Area_Distance 		= 1500; 
 
 
 //________________	This is in the GF_Set_Custom_Loadout folder and it's configured for the GF Missions	________________
@@ -176,7 +185,7 @@ if (GF_Missions_Show_Server_info) then {
 //________________ End of init	________________
 
 		
-waitUntil {time >2};
+waitUntil {time > 60};
 
 /*
 	________________	ADDED By lordfrith	________________
