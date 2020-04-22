@@ -1,8 +1,8 @@
 // INFANTRY SKILL
 _InfskillSet = [
-0.25,        // aimingAccuracy
+0.15,        // aimingAccuracy
 0.45,        // aimingShake
-0.6,        // aimingSpeed
+0.4,        // aimingSpeed
 0.4,         // spotDistance
 0.4,        // spotTime
 1,        // courage
@@ -14,9 +14,9 @@ _InfskillSet = [
 
 // ARMOUR SKILL
 _ArmSkillSet = [
-0.25,        // aimingAccuracy
+0.15,        // aimingAccuracy
 0.45,        // aimingShake
-0.6,        // aimingSpeed
+0.4,        // aimingSpeed
 0.4,         // spotDistance
 0.4,        // spotTime
 1,        // courage
@@ -28,9 +28,9 @@ _ArmSkillSet = [
 
 // LIGHT VEHICLE skill
 _LigSkillSet = [
-0.25,        // aimingAccuracy
+0.15,        // aimingAccuracy
 0.45,        // aimingShake
-0.6,        // aimingSpeed
+0.4,        // aimingSpeed
 0.4,         // spotDistance
 0.4,        // spotTime
 1,        // courage
@@ -42,9 +42,9 @@ _LigSkillSet = [
 
 // HELICOPTER SKILL
 _AIRskillSet = [
-0.25,        // aimingAccuracy
+0.15,        // aimingAccuracy
 0.45,        // aimingShake
-0.6,        // aimingSpeed
+0.4,        // aimingSpeed
 0.4,         // spotDistance
 0.4,        // spotTime
 1,        // courage
@@ -56,9 +56,9 @@ _AIRskillSet = [
 
 // STATIC SKILL
 _STAskillSet = [
-0.25,        // aimingAccuracy
+0.15,        // aimingAccuracy
 0.45,        // aimingShake
-0.6,        // aimingSpeed
+0.4,        // aimingSpeed
 0.4,         // spotDistance
 0.4,        // spotTime
 1,        // courage
