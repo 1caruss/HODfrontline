@@ -42,7 +42,6 @@ ENGIMA_CIVILIANS_BEHAVIOURS = [
 	["CITIZEN", 100] // Default citizen with ordinary behaviour. Spawns in a house and walks to another house, and so on...
 ];
 
-// Do not edit anything beneath this line!
 
 ENGIMA_CIVILIANS_INSTANCE_NO = 0;
 
