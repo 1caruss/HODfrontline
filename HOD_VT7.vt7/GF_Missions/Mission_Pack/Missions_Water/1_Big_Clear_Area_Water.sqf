@@ -35,8 +35,8 @@ https://forums.bohemia.net/forums/topic/215850-compilation-list-of-my-gf-scripts
 
 //________________ You can disable them completly in the Missions_init _____________
 
-_EOS_Spawn 					= true;					
-_DAC_Spawn 					= false;					
+_EOS_Spawn 					= false;					
+_DAC_Spawn 					= true;					
 _Custom_Spawn 				= true;					
 
 
