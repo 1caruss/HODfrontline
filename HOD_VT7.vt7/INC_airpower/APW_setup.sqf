@@ -29,9 +29,9 @@ _altitudeMin = 8000;                    //Minimum altitude of ordnance launch
 _altitudeRandom = 4000;                 //Random additional altitude above minimum for ordnance launch
 _radius = 1500;                         //Radius of launch position around player in meters
 _rtbOnNoAmmo = true; 					//Should the unit RTB when out of ammo? (Set to false if you want the unit to continue tracking after it has run out of ammo)
-_playTime = 30;                         //Amount of time aircraft will remain on station (in minutes) - i.e. over the target area
+_playTime = 120;                         //Amount of time aircraft will remain on station (in minutes) - i.e. over the target area
 _playTimeVar = 5;                      //Variation in minutes for time on station (must be significantly less than _playtime to avoid errors)
-_requestInterval = 3;                  //Maximum amount of time in minutes between unsuccessful aircraft requests (will be able to request again once this timer is done)
+_requestInterval = 1;                  //Maximum amount of time in minutes between unsuccessful aircraft requests (will be able to request again once this timer is done)
 _maxSorties = 999;                        //Max number of sorties
 _timeout = 120;                          //Radio message timout in seconds (player must communicate before this runs out or the mission will abort - the final strike confirmation will be 15 times this value to enable coordination)
 
@@ -55,4 +55,4 @@ _isAffectedByOvercast = false;			//Is tracking affected by overcase conditions?
 _objectOcclusion = true;				//Do objects block tracking (i.e. a unit standing under a building)?
 _maxOvercastDegradation = 70;			//How much % reliability will be lost at full overcast?
 _trackingRange = 800;					//Maximum tracking range from player
-_terminalNecessary = false;				//Is a UAV terminal necessary to view tracking information?
+_terminalNecessary = true;				//Is a UAV terminal necessary to view tracking information?
