@@ -26,9 +26,9 @@ TBB_Excluded = [];
 _canMove = false;          // if vehicles should be deleted when they are to damaged to move and empty, NOTE empty fuel also means it cannot move.
 _abandoned = false;      // if vehicles should be deleted after being x time un manned, if 1 unit enters in the time period, time is reset, and vehicle is processed again when empty or destroyed.
 _groupDel = true;          // if empty groups should be deleted, to avoid reaching 144 group limit in long missions.
-_viewDist = 50;            // min distance in meter from a player unit to allow delete, if you dont care if player sees the delete, set it to 0.
-_manTimer = 300;          // x seconds until delete of dead man units.
-_vehTimer = 600;          // x seconds until delete of dead vehicles, for destroyed and heavy damaged vehicles.
+_viewDist = 0;            // min distance in meter from a player unit to allow delete, if you dont care if player sees the delete, set it to 0.
+_manTimer = 60;          // x seconds until delete of dead man units.
+_vehTimer = 60;          // x seconds until delete of dead vehicles, for destroyed and heavy damaged vehicles.
 _abaTimer = 30;          // x seconds a vehicle must be unmanned to be deleted, for _abandoned option.
 _incTimer = 30;            // x seconds any object put inside the TBB_Included will be deleted no matter condition.
 

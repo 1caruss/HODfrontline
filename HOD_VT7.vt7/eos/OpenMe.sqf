@@ -74,7 +74,8 @@ null = [["EOSinf_1","EOSinf_2","EOSinf_3","EOSinf_4","EOSinf_5","EOSinf_6","EOSi
 "EOSinf_281","EOSinf_282","EOSinf_283","EOSinf_284","EOSinf_285","EOSinf_286","EOSinf_287","EOSinf_288","EOSinf_289","EOSinf_290",
 "EOSinf_291","EOSinf_292","EOSinf_293"],
 
-[1,1,75],[1,0,25],[0,0],[0],[0],[0,0],[5,0,350,EAST,TRUE,FALSE]] call EOS_Spawn;
+[1,1,90],[2,0,25],[0,0],[0],[0],[0,0],[5,0,350,EAST,TRUE,FALSE]] call EOS_Spawn;
+
 
 
 //motorized zones - 
@@ -84,11 +85,13 @@ null = [["EOSmot_1","EOSmot_2","EOSmot_3","EOSmot_4","EOSmot_5","EOSmot_6","EOSm
 [0,0],[1,3,50],[1,1,75],[0],[0],[0],[5,1,500,EAST,FALSE,FALSE]] call EOS_Spawn;
 
 
+
 //Recon patrols - 
 null = [["EOSrec_1","EOSrec_2","EOSrec_3","EOSrec_4","EOSrec_5","EOSrec_6","EOSrec_7","EOSrec_8","EOSrec_9","EOSrec_10",
 "EOSrec_11","EOSrec_12","EOSrec_13","EOSrec_14","EOSrec_15","EOSrec_16","EOSrec_17","EOSrec_18"],
 
-[0,0],[2,1,75],[1,2,25],[0],[0],[0],[6,1,400,EAST,FALSE,TRUE]] call EOS_Spawn;
+[0,0],[2,1,75],[1,2,25],[0],[0],[0],[6,1,400,EAST,FALSE,FALSE]] call EOS_Spawn;
+
 
 
 //mechanised zones
@@ -97,10 +100,18 @@ null = [["EOSmech_1","EOSmech_2","EOSmech_3","EOSmech_4","EOSmech_5","EOSmech_6"
 [0,0],[0,0],[1,75],[0],[0],[0],[5,1,350,EAST,FALSE,FALSE]] call EOS_Spawn;
 
 
+
 //bastion zones
 null = [["BAS_1","BAS_2","BAS_3","BAS_4","BAS_5","BAS_6","BAS_7","BAS_8","BAS_9","BAS_10","BAS_11","BAS_12","BAS_13"],
 
-[2,1],[1,2],[0],[1,2],[5,0,EAST,TRUE],[5,1,120,TRUE,FALSE]] call Bastion_Spawn;
+[2,1],[2,2],[0],[0,0],[5,0,EAST,FALSE],[10,3,120,TRUE,FALSE]] call Bastion_Spawn;
+
+
+
+null = [["EOSref_1","EOSref_2","EOSref_3","EOSref_4","EOSref_5","EOSref_6","EOSref_7","EOSref_8","EOSref_9","EOSref_10",
+"EOSref_11","EOSref_12","EOSref_13","EOSref_14","EOSref_15","EOSref_16"],
+
+[0,0],[1,2],[0],[0,0],[5,1,EAST,FALSE],[300,2,120,FALSE,FALSE]] call Bastion_Spawn;
 
 
 null=[] call HOD_fnc_persistence;

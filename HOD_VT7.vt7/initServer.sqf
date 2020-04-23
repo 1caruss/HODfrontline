@@ -34,15 +34,7 @@ https://forums.bohemia.net/forums/topic/215850-compilation-list-of-my-gf-scripts
 
 
 
-[]execVM "GF_Missions\Missions_Array.sqf";
-[]execVM "GF_Missions\Missions_init.sqf";
 
-
-
-[] execVM "GF_Missions\Credits.sqf";	//	Please keep the Credits or add them to your Diary
-[] execVM "GF_Set_Custom_Loadout\Credits.sqf";	// Please keep the Credits or add them to your Diary
-
-[] execVM "Script\garbage.sqf"; //garbage collector
 
 
 //________________	add to Zeus	________________

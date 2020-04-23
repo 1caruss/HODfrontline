@@ -1,6 +1,8 @@
 //EOS SYSTEM by banga bob - modified by HOD
 []execVM "eos\OpenMe.sqf";
 
+[] execVM "Script\garbage.sqf"; //garbage collector
+
 // ====================================================================================
 
 //MHQ Tracker by Tetlys
